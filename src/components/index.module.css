@@ -1,0 +1,49 @@
+
+.carousel-fade {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: fixed;
+    z-index: 5;
+  }
+main{
+    margin-top: 70px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+    z-index: 666;
+    
+}
+.strip{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 500;
+    height: 650px;
+}
+h2 {
+    font-family: 'Martian Mono', monospace;
+    font-family: 'Playfair Display', serif;
+    font-size: 3em;
+}
+main p{
+    color: #d95988;
+}
+a:hover img{
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+
+
+
+@media (max-width: 850px) {
+    .strip{
+        height: 300px;
+    }
+    .strip h2{
+        margin-top: 150px;
+    }
+}
